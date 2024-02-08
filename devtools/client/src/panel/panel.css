@@ -1,0 +1,78 @@
+body {
+    background-color: #282828;
+    color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282828;
+}
+
+.header,
+.main,
+.footer {
+    background: #282828;
+    border-radius: 10px;
+    box-shadow: -8px -8px 16px #1e1e1e,
+        8px 8px 16px #323232;
+    margin: 20px;
+    padding: 20px;
+}
+
+.selection-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.selection-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-item select {
+    border: none;
+    background: #282828;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset -4px -4px 8px #1e1e1e,
+        inset 4px 4px 8px #323232;
+    color: #f5f5f5;
+    margin-top: 10px;
+}
+
+.no-player-message {
+    text-align: center;
+    color: #aaa;
+}
+
+.component-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.state-details {
+    background: #282828;
+    border-radius: 10px;
+    box-shadow: -4px -4px 8px #1e1e1e,
+        4px 4px 8px #323232;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.state-details summary {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.state-details pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
